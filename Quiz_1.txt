@@ -1,0 +1,13 @@
+0 setn r1 -10 # gravity constant
+1 read r2 # fallingTime
+2 read r3 # initialPosition
+3 read r4 # initialVelocity
+4 setn r5 2
+5 mul r1 r1 r2
+6 mul r1 r1 r2
+7 div r1 r1 r5 # first entry
+8 mul r4 r4 r2 # second entry
+9 add r1 r1 r4
+10 add r1 r1 r3
+11 write r1 # finalPosition
+12 halt
