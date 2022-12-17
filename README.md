@@ -1,2 +1,2 @@
-# BBM101-103
-Hacettepe BBM101-103 derslerine ait içerikler.
+# BBM103
+Hacettepe BBM103 dersine ait içerikler.
